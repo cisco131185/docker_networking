@@ -1,7 +1,7 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host="mysql-db1",   # wrong in Docker
+    host="mysql-db",   # wrong in Docker
     user="root",
     password="root",
     database="school"
